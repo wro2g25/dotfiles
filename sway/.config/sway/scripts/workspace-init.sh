@@ -25,5 +25,5 @@ for ENTRY in $PLAIN_WS; do
 done
 
 # focus back to the main monitor
-swaymsg "focus output DP-2"
-swaymsg "workspace \"DP-2:1\""
+swaymsg "focus output eDP-1"
+swaymsg "workspace \"eDP-1:1\""

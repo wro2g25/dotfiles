@@ -17,41 +17,19 @@ exec_always sh -c "killall waybar 2>/dev/null; sleep 0.5; env LC_ALL=pl_PL.UTF-8
 output * bg ~/Pulpit/Personalne/Tapety/fall-house-norm.jpg fill
 output * subpixel none
 # output * render_bit_depth 10
-output HDMI-A-1 mode 1920x1080@75Hz pos 0 0
-output DP-2 mode 1920x1080@179.821Hz pos 1920 0
-output DP-1 mode 1600x900@77Hz pos 3840 0
+output eDP-1 mode 1920x1080@59.999Hz pos 0 0
 
-# Per-monitor workspaces to outputs
-workspace "DP-2:1" output DP-2
-workspace "DP-2:2" output DP-2
-workspace "DP-2:3" output DP-2
-workspace "DP-2:4" output DP-2
-workspace "DP-2:5" output DP-2
-workspace "DP-2:6" output DP-2
-workspace "DP-2:7" output DP-2
-workspace "DP-2:8" output DP-2
-workspace "DP-2:9" output DP-2
-workspace "DP-2:10" output DP-2
-workspace "HDMI-A-1:1" output HDMI-A-1
-workspace "HDMI-A-1:2" output HDMI-A-1
-workspace "HDMI-A-1:3" output HDMI-A-1
-workspace "HDMI-A-1:4" output HDMI-A-1
-workspace "HDMI-A-1:5" output HDMI-A-1
-workspace "HDMI-A-1:6" output HDMI-A-1
-workspace "HDMI-A-1:7" output HDMI-A-1
-workspace "HDMI-A-1:8" output HDMI-A-1
-workspace "HDMI-A-1:9" output HDMI-A-1
-workspace "HDMI-A-1:10" output HDMI-A-1
-workspace "DP-1:1" output DP-1
-workspace "DP-1:2" output DP-1
-workspace "DP-1:3" output DP-1
-workspace "DP-1:4" output DP-1
-workspace "DP-1:5" output DP-1
-workspace "DP-1:6" output DP-1
-workspace "DP-1:7" output DP-1
-workspace "DP-1:8" output DP-1
-workspace "DP-1:9" output DP-1
-workspace "DP-1:10" output DP-1
+# Workspaces for the single laptop display
+workspace "eDP-1:1" output eDP-1
+workspace "eDP-1:2" output eDP-1
+workspace "eDP-1:3" output eDP-1
+workspace "eDP-1:4" output eDP-1
+workspace "eDP-1:5" output eDP-1
+workspace "eDP-1:6" output eDP-1
+workspace "eDP-1:7" output eDP-1
+workspace "eDP-1:8" output eDP-1
+workspace "eDP-1:9" output eDP-1
+workspace "eDP-1:10" output eDP-1
 
 # Seat & Cursor configuration
 seat * xcursor_theme Adwaita 24
