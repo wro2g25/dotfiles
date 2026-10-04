@@ -14,7 +14,7 @@ exec swaync
 exec_always sh -c "killall waybar 2>/dev/null; sleep 0.5; env LC_ALL=pl_PL.UTF-8 waybar"
 
 # Output configuration
-output * bg ~/Pulpit/Personalne/Tapety/fall-house-norm.jpg fill
+output * bg /home/laptrapfox/dotfiles/wallpapers/drawings/wallhaven-96glxd.png fill
 output * subpixel none
 # output * render_bit_depth 10
 output eDP-1 mode 1920x1080@59.999Hz pos 0 0
